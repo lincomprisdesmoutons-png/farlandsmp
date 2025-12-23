@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>FARLAND SMP</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>FARLAND SMP</h1>
+  <p>Serveur Minecraft & Discord</p>
+
+  <div class="buttons">
+    <a class="btn discord" href="https://discord.gg/P8t8CZzzxd" target="_blank">
+      Rejoindre le Discord
+    </a>
+    <button class="btn mc" onclick="copyIP()">
+      Copier l’IP : farlandsmp.mine.fun
+    </button>
+  </div>
+</header>
+
+<section class="shop">
+  <h2>Boutique</h2>
+
+  <div class="card">
+    <h3>⭐ Rôle Premium</h3>
+    <p class="price">5 € / $ / CAD</p>
+
+    <ul>
+      <li>Accès illimité au serveur</li>
+      <li>Plus d’autorisations</li>
+      <li>Accès prioritaire</li>
+      <li>Nouveautés en avance</li>
+      <li>Soutien au serveur ❤️</li>
+    </ul>
+
+    <div class="buttons">
+      <button class="btn disabled" disabled>
+        Acheter le rôle Premium (bientôt)
+      </button>
+      <button class="btn support">
+        Soutenir le serveur
+      </button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© FARLAND SMP — Merci pour votre soutien 💚</p>
+</footer>
+
+<script>
+function copyIP() {
+  navigator.clipboard.writeText("farlandsmp.mine.fun");
+  alert("IP copiée !");
+}
+</script>
+
+</body>
+</html>
